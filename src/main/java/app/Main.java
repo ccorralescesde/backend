@@ -1,5 +1,6 @@
 package app;
 
+import models.Curso;
 import models.Students;
 
 import java.util.ArrayList;
@@ -34,6 +35,20 @@ public class Main {
         for (Students student : students){
             System.out.println("ID " + student.getId() + " Nombre " + student.getFirstnemae() + " Apellido " + student.getLastname() + " Email " + student.getEmail() + " Telefono " + student.getPhone() );
         }
+
+        List<Curso> cursos;
+        cursos = new ArrayList<>();
+        cursos.add(new Curso(1L, "Introduccion a la programacion", "Curso Semetre 1 programacion"));
+        cursos.add(new Curso(2L, "Logica de programacion", "Curso Semetre 1 programacion"));
+        cursos.add(new Curso(3L, "Bases de datos", "Curso Semetre 1 programacion"));
+        cursos.add(new Curso(4L, "Frontend I", "Curso Semetre 2 programacion"));
+        cursos.add(new Curso(5L, "Backend I", "Curso Semetre 2 programacion"));
+        cursos.add(new Curso(6L, "Metodologias agiles", "Curso Semetre 2 programacion"));
+        System.out.println("List of Curso");
+        for (Curso curso : cursos){
+            System.out.println("ID " + curso.getId() + " Nombre curso " + curso.getNombreCurso() + " Descripcion " + curso.getDesCurso());
+        }
+
 
 
 
