@@ -9,7 +9,7 @@ public class Matricula {
     private LocalDateTime fechaMatricula;
     private String periodoAcademico;
 
-    public Matricula() {
+    public Matricula(long id, String number, String s, String string, String periodoAcademico) {
 
     }
 

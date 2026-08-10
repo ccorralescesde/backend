@@ -1,6 +1,7 @@
 package app;
 
 import models.Curso;
+import models.Matricula;
 import models.Students;
 
 import java.util.ArrayList;
@@ -48,6 +49,23 @@ public class Main {
         for (Curso curso : cursos){
             System.out.println("ID " + curso.getId() + " Nombre curso " + curso.getNombreCurso() + " Descripcion " + curso.getDesCurso());
         }
+
+        List<Matricula> matriculas;
+        matriculas = new ArrayList<>();
+        matriculas.add(new Matricula(1L, "001", "001","09/08/26", "semestre 2 2026"));
+        matriculas.add(new Matricula(2L, "001", "002","09/08/26", "semestre 2 2026"));
+        matriculas.add(new Matricula(3L, "001", "003","09/08/26", "semestre 2 2026"));
+        matriculas.add(new Matricula(4L, "001", "004","09/08/26", "semestre 2 2026"));
+        matriculas.add(new Matricula(5L, "002", "001","09/08/26", "semestre 2 2026"));
+        matriculas.add(new Matricula(6L, "002", "002","09/08/26", "semestre 2 2026"));
+        System.out.println("List of Matricula");
+        for (Matricula matricula : matriculas){
+            System.out.println("ID " +  matricula.getId() + " ID Curso "+ matricula.getCursoId() + " ID Estudiante " + matricula.getStudentId() + " Fecha Matricula " + matricula.getFechaMatricula() + " Periodo academico " +  matricula.getPeriodoAcademico());
+        }
+
+
+
+
 
 
 
