@@ -10,16 +10,14 @@ public class Matricula {
     private String periodoAcademico;
 
     public Matricula(long id, String number, String s, String string, String periodoAcademico) {
-
-    }
-
-    public Matricula(long id, int cursoId, int studentId, LocalDateTime fechaMatricula, String periodoAcademico) {
         this.id = id;
         this.cursoId = cursoId;
         this.studentId = studentId;
         this.fechaMatricula = fechaMatricula;
         this.periodoAcademico = periodoAcademico;
+
     }
+
 
     public long getId() {
         return id;
