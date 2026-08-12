@@ -1,31 +1,31 @@
 package models;
 
-public class Students {
+public class Student {
 
-    private Long id;
+    private Long studentId;
     private String firstnemae;
     private String lastname;
     private String email;
     private String phone;
 
-    public Students(){
+    public Student(){
 
     }
 
-    public Students (Long idStudent, String firstnemae, String lastmane,String email, String phone){
-        this.id = idStudent;
+    public Student(Long idStudent, String firstnemae, String lastmane, String email, String phone){
+        this.studentId = idStudent;
         this.firstnemae = firstnemae;
         this.lastname = lastmane;
         this.email = email;
         this.phone = phone;
     }
 
-    public Long getId() {
-        return id;
+    public Long getStudentId() {
+        return studentId;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public void setStudentId(Long studentId) {
+        this.studentId = studentId;
     }
 
     public String getFirstnemae() {

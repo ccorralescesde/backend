@@ -2,18 +2,18 @@ package models;
 
 import java.time.LocalDateTime;
 
-public class Matricula {
+public class Enrrollment {
     private long id;
     private int cursoId;
     private int studentId;
     private LocalDateTime fechaMatricula;
     private String periodoAcademico;
 
-    public Matricula(long id, String number, String s, String string, String periodoAcademico) {
+    public Enrrollment(long id, String number, String s, String string, String periodoAcademico) {
         this.id = id;
         this.cursoId = cursoId;
         this.studentId = studentId;
-        this.fechaMatricula = fechaMatricula;
+        this.fechaMatricula = LocalDateTime.now();
         this.periodoAcademico = periodoAcademico;
 
     }

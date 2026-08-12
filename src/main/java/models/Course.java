@@ -1,15 +1,15 @@
 package models;
 
-public class Curso {
+public class Course {
     private long id;
     private String nombreCurso;
     private String desCurso;
 
-    public Curso(){
+    public Course(){
 
     }
 
-    public Curso(long id, String nombreCurso, String desCurso) {
+    public Course(long id, String nombreCurso, String desCurso) {
         this.id = id;
         this.nombreCurso = nombreCurso;
         this.desCurso = desCurso;
