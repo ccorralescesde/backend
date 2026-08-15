@@ -3,59 +3,49 @@ package models;
 import java.time.LocalDateTime;
 
 public class Enrrollment {
-    private long id;
-    private int cursoId;
-    private int studentId;
-    private LocalDateTime fechaMatricula;
-    private String periodoAcademico;
+    private long idEnrrollment;
+    private long idStudent;
+    private String status;
+    private String enrrollmentDate;
 
-    public Enrrollment(long id, String number, String s, String string, String periodoAcademico) {
-        this.id = id;
-        this.cursoId = cursoId;
-        this.studentId = studentId;
-        this.fechaMatricula = LocalDateTime.now();
-        this.periodoAcademico = periodoAcademico;
 
+    public Enrrollment(long idEnrrollment, long idStudent, String status, String enrrollmentDate) {
+        this.idEnrrollment = idEnrrollment;
+        this.idStudent = idStudent;
+        this.status = status;
+        this.enrrollmentDate = enrrollmentDate;
     }
 
-
-    public long getId() {
-        return id;
+    public long getIdEnrrollment() {
+        return idEnrrollment;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setIdEnrrollment(long idEnrrollment) {
+        this.idEnrrollment = idEnrrollment;
     }
 
-    public int getCursoId() {
-        return cursoId;
+    public long getIdStudent() {
+        return idStudent;
     }
 
-    public void setCursoId(int cursoId) {
-        this.cursoId = cursoId;
+    public void setIdStudent(long idStudent) {
+        this.idStudent = idStudent;
     }
 
-    public int getStudentId() {
-        return studentId;
+    public String getStatus() {
+        return status;
     }
 
-    public void setStudentId(int studentId) {
-        this.studentId = studentId;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
-    public LocalDateTime getFechaMatricula() {
-        return fechaMatricula;
+    public String getEnrrollmentDate() {
+        return enrrollmentDate;
     }
 
-    public void setFechaMatricula(LocalDateTime fechaMatricula) {
-        this.fechaMatricula = fechaMatricula;
-    }
-
-    public String getPeriodoAcademico() {
-        return periodoAcademico;
-    }
-
-    public void setPeriodoAcademico(String periodoAcademico) {
-        this.periodoAcademico = periodoAcademico;
+    public void setEnrrollmentDate(String enrrollmentDate) {
+        this.enrrollmentDate = enrrollmentDate;
     }
 }
+

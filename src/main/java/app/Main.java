@@ -5,6 +5,7 @@ import models.Enrrollment;
 import models.Student;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,31 +22,31 @@ public class Main {
 
         System.out.println("List of Students");
         for (Student student : students){
-            System.out.println("ID " + student.getStudentId() + " Nombre " + student.getFirstnemae() + " Apellido " + student.getLastname() + " Email " + student.getEmail() + " Telefono " + student.getPhone() );
+            System.out.println("ID " + student.getIdStudent() + " Nombre " + student.getFirstnemae() + " Apellido " + student.getLastname() + " Email " + student.getEmail() + " Telefono " + student.getPhone() );
         }
 
         courses = new ArrayList<>();
-        courses.add(new Course(1L, "Introduccion a la programacion", "Curso Semetre 1 programacion"));
-        courses.add(new Course(2L, "Logica de programacion", "Curso Semetre 1 programacion"));
-        courses.add(new Course(3L, "Bases de datos", "Curso Semetre 1 programacion"));
-        courses.add(new Course(4L, "Frontend I", "Curso Semetre 2 programacion"));
-        courses.add(new Course(5L, "Backend I", "Curso Semetre 2 programacion"));
-        courses.add(new Course(6L, "Metodologias agiles", "Curso Semetre 2 programacion"));
+        courses.add(new Course(1L, "INT01PROM", "Introduccion a la programacion", "Curso Semetre 1 programacion", 20));
+        courses.add(new Course(2L, "LO01PROM", "Logica de programacion", "Curso Semetre 1 programacion", 20));
+        courses.add(new Course(3L, "BD01PROM", "Bases de datos", "Curso Semetre 1 programacion",20));
+        courses.add(new Course(4L,"FON02PROM", "Frontend I", "Curso Semetre 2 programacion", 20));
+        courses.add(new Course(5L, "BAC02PROM", "Backend I", "Curso Semetre 2 programacion", 20));
         System.out.println("List of Curso");
         for (Course course : courses){
-            System.out.println("ID " + course.getId() + " Nombre curso " + course.getNombreCurso() + " Descripcion " + course.getDesCurso());
+            System.out.println("ID " + course.getIdCourse() +"Codigo" + course.getCodeCurse() + " Nombre curso " + course.getNameCurse() + " Descripcion " + course.getDesCurse() + "Capacidad Max" +  course.getMaxCapacity());
         }
 
+
         enrrollments = new ArrayList<>();
-        enrrollments.add(new Enrrollment(1L, "1", "1","09/08/26", "semestre 2 2026"));
-        enrrollments.add(new Enrrollment(2L, "1", "1","09/08/26", "semestre 2 2026"));
-        enrrollments.add(new Enrrollment(3L, "1", "3","09/08/26", "semestre 2 2026"));
-        enrrollments.add(new Enrrollment(4L, "1", "4","09/08/26", "semestre 2 2026"));
-        enrrollments.add(new Enrrollment(5L, "2", "1","09/08/26", "semestre 2 2026"));
-        enrrollments.add(new Enrrollment(6L, "2", "2","09/08/26", "semestre 2 2026"));
+        enrrollments.add(new Enrrollment(1L, 1, "1", "09/08/26");
+        enrrollments.add(new Enrrollment(2L, 2, "1","09/08/26"));
+        enrrollments.add(new Enrrollment(3L, 3, "1","09/08/26"));
+        enrrollments.add(new Enrrollment(4L, 4, "1","09/08/26"));
+        enrrollments.add(new Enrrollment(5L, 5, "0","09/08/26"));
+        enrrollments.add(new Enrrollment(6L, 6, "1","09/08/26"));
         System.out.println("List of Matricula");
         for (Enrrollment enrrollment : enrrollments){
-            System.out.println("ID " +  enrrollment.getId() + " ID Curso "+ enrrollment.getCursoId() + " ID Estudiante " + enrrollment.getStudentId() + " Fecha Matricula " + enrrollment.getFechaMatricula() + " Periodo academico " +  enrrollment.getPeriodoAcademico());
+            System.out.println("ID " +  enrrollment.getIdEnrrollment() + "ID Estudiante" + enrrollment.getIdStudent() + "Estatus" + enrrollment.getStatus() + "Fecha Mat" + enrrollment.getEnrrollmentDate());
         }
 
 

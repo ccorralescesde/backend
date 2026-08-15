@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="448cb0a4-4ce4-402e-a2a2-620829e6421f" name="Changes" comment="Array matricula">
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/DataStore.java" afterDir="false" />
+    <list default="true" id="448cb0a4-4ce4-402e-a2a2-620829e6421f" name="Changes" comment="C'lase DataStore'">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enrrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Curso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Matricula.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Students.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/DataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Enrrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Enrrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +34,79 @@
     &quot;assignee&quot;: &quot;ccorralescesde&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ccorralescesde/backend",
-    "accountId": "b4510645-b76f-4808-bb31-164482011a67"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ccorralescesde/backend&quot;,
+    &quot;accountId&quot;: &quot;b4510645-b76f-4808-bb31-164482011a67&quot;
   }
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000000404" />
+      <entry key="S10" value="1.0000003925602259" />
+      <entry key="S30" value="1.025352212721135" />
+      <entry key="S60" value="1.4745160543503697" />
+      <entry key="M2" value="3.5056508764904555" />
+      <entry key="M5" value="11.53754029440033" />
+      <entry key="M10" value="22.479592127861874" />
+      <entry key="M15" value="31.18332331653737" />
+      <entry key="M30" value="52.07765301616368" />
+      <entry key="H1" value="76.72777833602325" />
+      <entry key="H2" value="97.23744569364332" />
+      <entry key="H4" value="110.71073581708058" />
+      <entry key="D1" value="124.06353212430992" />
+      <entry key="W1" value="126.5747009683554" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.394943876950028E-167" />
+      <entry key="S2" value="2.227669506777966E-42" />
+      <entry key="S5" value="2.588991018303623E-17" />
+      <entry key="S10" value="7.49097689632893E-9" />
+      <entry key="S30" value="0.004121674191727842" />
+      <entry key="S60" value="0.12324989459201485" />
+      <entry key="M2" value="0.7379642562038835" />
+      <entry key="M5" value="2.8225506322075313" />
+      <entry key="M10" value="5.53508923391266" />
+      <entry key="M15" value="7.5081045424623305" />
+      <entry key="M30" value="11.367459548704566" />
+      <entry key="H1" value="15.153779247560598" />
+      <entry key="H2" value="18.036425339019488" />
+      <entry key="H4" value="19.855368419935097" />
+      <entry key="D1" value="21.617079299373426" />
+      <entry key="W1" value="21.944631562481458" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0056013876875618245" />
+      <entry key="MS500" value="0.35453500891986467" />
+      <entry key="S2" value="0.7716400875294673" />
+      <entry key="S5" value="0.9015003769416027" />
+      <entry key="S10" value="0.9494741080367046" />
+      <entry key="S30" value="1.0112756700922767" />
+      <entry key="S60" value="1.5770385121191308" />
+      <entry key="M2" value="4.205322644162078" />
+      <entry key="M5" value="14.3002120350668" />
+      <entry key="M10" value="27.95346585525839" />
+      <entry key="M15" value="38.63475667458817" />
+      <entry key="M30" value="63.399237177801155" />
+      <entry key="H1" value="91.84883117835983" />
+      <entry key="H2" value="115.25352019553527" />
+      <entry key="H4" value="130.55462988084247" />
+      <entry key="D1" value="145.67848541919506" />
+      <entry key="W1" value="148.51902308899528" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -55,32 +119,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mauriciocorrales/Library/CloudStorage/OneDrive-Personal/CESDE/Desarrollo de software/Backend/semana03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mauriciocorrales/Library/CloudStorage/OneDrive-Personal/CESDE/Desarrollo de software/Backend/semana03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MC\semana3\api-sgc" />
@@ -106,6 +171,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -115,6 +188,9 @@
       <option name="presentableId" value="Default" />
       <updated>1785886893115</updated>
       <workItem from="1786490360177" duration="25000" />
+      <workItem from="1786684933391" duration="441000" />
+      <workItem from="1786685413072" duration="44000" />
+      <workItem from="1786810221082" duration="2900000" />
     </task>
     <task id="LOCAL-00001" summary="Clase Curso agregada">
       <option name="closed" value="true" />
@@ -156,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786492582221</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clase DataStore">
+      <option name="closed" value="true" />
+      <created>1786499692336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1786499692336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +254,8 @@
     <MESSAGE value="Array Cursos" />
     <MESSAGE value="Clase Matricula" />
     <MESSAGE value="Array matricula" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array matricula" />
+    <MESSAGE value="Clase DataStore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase DataStore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,7 +272,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/app/Main.java</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
