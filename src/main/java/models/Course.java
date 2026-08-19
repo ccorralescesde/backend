@@ -10,17 +10,16 @@ public class Course {
     private int maxCapacity;
     private String createDate;
 
-    public Course(long idCourse, String bd01PROM, String basesDeDatos, String desCurse, int maxCapacity) {
-    }
 
 
-    public Course(long idCourse, String codeCurse, String nameCurse, String desCurse, int maxCapacity, String createDate) {
+
+    public Course(long idCourse, String codeCurse, String nameCurse, String desCurse, int maxCapacity) {
         this.idCourse = idCourse;
         this.codeCurse = codeCurse;
         this.nameCurse = nameCurse;
         this.desCurse = desCurse;
         this.maxCapacity = maxCapacity;
-        this.createDate = createDate;
+        this.createDate = LocalDate.now().toString();
     }
 
 
@@ -70,5 +69,10 @@ public class Course {
 
     public void setCreateDate(String createDate) {
         this.createDate = createDate;
+    }
+
+    @Override
+    public String toString() {
+        return "idCourse=" + idCourse  + " " + "Nombre Curso: " + nameCurse;
     }
 }

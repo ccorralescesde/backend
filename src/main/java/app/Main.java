@@ -1,18 +1,40 @@
 package app;
 
+import data.DataStore;
 import models.Course;
 import models.Enrrollment;
 import models.Student;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
+        DataStore dataStore = new DataStore(); // Creo el objeto, lo instancion y lo inicio, creando el constructor.
+        dataStore.addStudent(new Student(1L, "Jhon", "Doe", "joh@example.com", "3123321321"));
+        dataStore.addStudent(new Student(4L, "Jana", "Simit", "smit@example.com", "354352345"));
+
+        dataStore.getListStudents().forEach(Student ->{
+                    System.out.println("ID: " + Student.getIdStudent() + "Nombre " + Student.getFirstnemae() + " Apellido " + Student.getLastname() + " Email " + Student.getEmail() + " Telefono " + Student.getPhone());
+                });
+
+        dataStore.addCourse(new Course(1L, "INT01PROM", "Introduccion a la programacion", "Curso Semetre 1 programacion", 20));
+        dataStore.addCourse(new Course(2L, "LO01PROM", "Logica de programacion", "Curso Semetre 1 programacion", 20));
+        System.out.println(dataStore.getListCourses());
+
+        dataStore.addErrollment(new Enrrollment(1L, 1, "1", "09/08/26"));
+        dataStore.addErrollment(new Enrrollment(2L, 1, "1", "09/08/26"));
+        dataStore.getListEnrollments().forEach(enrrollment ->{
+            System.out.println("ID " + enrrollment.getIdEnrrollment() + " ID Estudiante " + enrrollment.getIdStudent() + " Estado " + enrrollment.getStatus() + " Fecha " + enrrollment.getEnrrollmentDate());
+        });
 
 
 
+
+
+/*
         students = new ArrayList<>();
         students.add(new Student(3L, "Jhon", "Doe", "joh@example.com", "3123321321"));
         students.add(new Student(4L, "Jana", "Simit", "smit@example.com", "354352345"));
@@ -48,15 +70,7 @@ public class Main {
         for (Enrrollment enrrollment : enrrollments){
             System.out.println("ID " +  enrrollment.getIdEnrrollment() + "ID Estudiante" + enrrollment.getIdStudent() + "Estatus" + enrrollment.getStatus() + "Fecha Mat" + enrrollment.getEnrrollmentDate());
         }
-
-
-
-
-
-
-
-
-
+        */
 
 
 

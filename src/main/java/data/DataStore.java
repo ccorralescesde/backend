@@ -51,7 +51,9 @@ public class DataStore {
         return listCourses;
     }
 
-    public void addCourse(Course course){listCourses.add(course);}
+    public void addCourse(Course course){
+        listCourses.add(course);
+    }
 
     public Course getCourse(long idCourse){
         for (Course course: listCourses){
